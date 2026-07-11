@@ -31,7 +31,7 @@ struct wl_state {
     struct wl_compositor *compositor;
     struct zwlr_layer_shell_v1 *layer_shell;
     struct wl_list outputs; // struct display_output::link
-    char *monitor; // User selected output
+    char *monitor; // User selected output1
     int surface_layer;
 };
 
